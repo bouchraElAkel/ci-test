@@ -1,8 +1,7 @@
 
 name: ci-test
 
-on: pull_request
-
+on: push
 jobs:
   super-lint:
     name: Lint code base
